@@ -30,6 +30,6 @@ nut_new <- nut %>%
     TOT_24 = coalesce(AS1_B24, NC1_SS24, CT1_SS24)
   ) %>%
   select(id, starts_with("TOT")
-         nut_new
-         
-         write.table(nut_new, 'nut_baseline_merged.csv', sep = ",", col.names = T, row.names = F, quote = F)
+nut_new
+
+write.table(nut_new, 'nut_baseline_merged.csv', sep = ",", col.names = T, row.names = F, quote = F)
